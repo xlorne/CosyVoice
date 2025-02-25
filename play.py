@@ -1,10 +1,10 @@
-import sys
 import os
+import sys
 import time
+
 sys.path.append('third_party/Matcha-TTS')
 
-from cosyvoice.cli.cosyvoice import CosyVoice, CosyVoice2
-from cosyvoice.utils.file_utils import load_wav
+from cosyvoice.cli.cosyvoice import CosyVoice
 import torchaudio
 
 
